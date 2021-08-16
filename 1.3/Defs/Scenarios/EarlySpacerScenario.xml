@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ScenarioDef>
+        <defName>Spacer Colonists</defName>
+        <label>Spacer Colonists</label>
+        <description>The four of you awake in your cryptosleep sarcophagi as the ship's AI tells you that you have reached your destination. Some of you are heading to another planet, and some of you are landing here, on this unknown rimworld.
+
+Your people saw this planet long ago, and saw that it was very similar to your home planet, so you are prepared to tackle whatever nature throws at you.</description>
+        <scenario>
+            <summary>Four colonists from a civilization in the early spacer age.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>EarlySpacerColonists</factionDef>
+            </playerFaction>
+            <parts>
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>4</pawnCount>
+                    <pawnChoiceCount>10</pawnChoiceCount>
+                </li>
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MealSurvivalPack</thingDef>
+                    <count>150</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <count>20</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>50</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Gun_AssaultRifle</thingDef>
+                    <count>3</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>Steel</thingDef>
+                    <count>2000</count>
+                    <allowRoofed>True</allowRoofed>
+                </li>
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>1000</count>
+                    <allowRoofed>True</allowRoofed>
+                </li>
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>The five of you awake in your cryptosleep sarcophagi as the ship's AI tells you that you have reached your destination. Some of you are heading to another planet, and some of you are landing here, on this unknown rimworld.
+    
+    Your people saw this planet long ago, and saw that it was very similar to your home planet, so you are prepared to tackle whatever nature throws at you.</text>
+                </li>
+                <li Class="ScenPart_PawnFilter_Age">
+                    <def>PawnFilter_Age</def>
+                    <allowedAgeRange>20~35</allowedAgeRange>
+                </li>
+            </parts>
+        </scenario>
+    </ScenarioDef>
+</Defs>
