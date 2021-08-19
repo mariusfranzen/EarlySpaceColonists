@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <shouldHaveSpacerTechLevel_title>Should have spacer tech level</shouldHaveSpacerTechLevel_title>
+    <shouldHaveSpacerTechLevel_desc>If you check this box you will spawn with the spacer tech level. This means that all of your research will be much faster.
+
+Default is False.
+    </shouldHaveSpacerTechLevel_desc>
+</LanguageData>

@@ -1,29 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ModMetaData>
-	<name>Early Space Colonists</name>
+	<name>Early Spacer Colonists</name>
 	<author>Bitbyte</author>
 	<packageId>bitbyte.EarlySpacerColonists.dev</packageId>
 	<supportedVersions>
 		<li>1.3</li>
 	</supportedVersions>
-	<description>
-After many years of playing rimworld, I felt like the start is a bit slow. So I made this mod which fixes that!
+	<description>After many years of playing rimworld, I felt like the start is a bit slow. So I made this mod which fixes that!
 
-FEATURES:
-* New faction and scenario! The Early Spacer Colonists. Starts with some more research, and they come prepared, with more building materials, better weapons, and more!
+[b]v 1.1[/b]
 
-* Compatible with many mods, including:
-    
-	* Dubs Bad Hygiene
-	
-	* Vanilla Expanded and all their expansions
-	
-	* Expanded Prosthetics and Organ Engineering
-	
-	* And many more...
-
+[b]FEATURES:[/b]
+[list]
+	[*]New faction and scenario! The Early Spacer Colonists
+	[*]Start with more research, building materials, better weapons and more!
+	[*]Compatible with ALL DLC's
+	[*]Compatible with many mods, including:
+	[list]
+		[*]Dubs Bad Hygiene
+		[*]Vanilla Expanded and all their expansions
+		[*]Expanded Prosthetics and Organ Engineering
+		[*]And many more...
+	[/list]
+[/list]
+		
 If you encounter any bugs, please comment and tell me, and I will fix them as soon as I can.
 The same thing goes for mod compatability.
 If you have any other suggestions, please share!
-	</description>
+		
+Github link: https://github.com/mariusfranzen/EarlySpaceColonists</description>
+	<modDependencies>
+		<li>
+			<packageId>UnlimitedHugs.HugsLib</packageId>
+			<displayName>HugsLib</displayName>
+			<downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>UnlimitedHugs.HugsLib</li>
+	</loadAfter>
 </ModMetaData>
