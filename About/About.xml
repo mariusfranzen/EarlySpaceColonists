@@ -8,27 +8,22 @@
 	</supportedVersions>
 	<description>After many years of playing rimworld, I felt like the start is a bit slow. So I made this mod which fixes that!
 
-[b]v 1.1[/b]
-
-[b]FEATURES:[/b]
-[list]
-	[*]New faction and scenario! The Early Spacer Colonists
-	[*]Start with more research, building materials, better weapons and more!
-	[*]Compatible with ALL DLC's
-	[*]Compatible with many mods, including:
-	[list]
-		[*]Dubs Bad Hygiene
-		[*]Vanilla Expanded and all their expansions
-		[*]Expanded Prosthetics and Organ Engineering
-		[*]And many more...
-	[/list]
-[/list]
+FEATURES:
+* New faction and scenario! The Early Spacer Colonists. Starts with some more research, and they come prepared, with more building materials, better weapons, and more!
+		
+* Compatible with many mods, including:
+			
+	* Dubs Bad Hygiene
+			
+	* Vanilla Expanded and all their expansions
+			
+	* Expanded Prosthetics and Organ Engineering
+			
+	* And many more...
 		
 If you encounter any bugs, please comment and tell me, and I will fix them as soon as I can.
 The same thing goes for mod compatability.
-If you have any other suggestions, please share!
-		
-Github link: https://github.com/mariusfranzen/EarlySpaceColonists</description>
+If you have any other suggestions, please share!</description>
 	<modDependencies>
 		<li>
 			<packageId>UnlimitedHugs.HugsLib</packageId>
