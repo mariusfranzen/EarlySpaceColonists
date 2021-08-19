@@ -7,7 +7,7 @@ using RimWorld;
 
 namespace EarlySpacerColonists
 {
-    public class Settings : ModBase
+    public class EarlySpacerColonists : ModBase
     {
         public override string ModIdentifier
         {
@@ -26,23 +26,28 @@ namespace EarlySpacerColonists
                     "shouldHaveSpacerTechLevel_desc".Translate(),
                     false
                 );
+                ApplySettings();
             }
         }
 
         public override void SettingsChanged()
         {
+            ApplySettings();
+            base.SettingsChanged();
+        }
+
+        public void ApplySettings()
+        {
             if (shouldHaveSpacerTechLevel)
             {
                 DefDatabase<FactionDef>.GetNamed("EarlySpacerColonists").techLevel = TechLevel.Spacer;
-                Log.Message("Set the default techlevel to " + DefDatabase<FactionDef>.GetNamed("EarlySpacerColonists").techLevel);
+                Log.Message("[EarlySpacerColonists] Set the default techlevel to Spacer");
             }
             else
             {
                 DefDatabase<FactionDef>.GetNamed("EarlySpacerColonists").techLevel = TechLevel.Industrial;
-                Log.Message("Set the default techlevel to " + DefDatabase<FactionDef>.GetNamed("EarlySpacerColonists").techLevel);
+                Log.Message("[EarlySpacerColonists] Set the default techlevel to Industrial");
             }
-
-            base.SettingsChanged();
         }
     }
 }
