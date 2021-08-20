@@ -41,12 +41,12 @@ namespace EarlySpacerColonists
             if (shouldHaveSpacerTechLevel)
             {
                 DefDatabase<FactionDef>.GetNamed("EarlySpacerColonists").techLevel = TechLevel.Spacer;
-                Log.Message("[EarlySpacerColonists] Set the default techlevel to Spacer");
+                Logger.Message("Set the default techlevel to Spacer");
             }
             else
             {
                 DefDatabase<FactionDef>.GetNamed("EarlySpacerColonists").techLevel = TechLevel.Industrial;
-                Log.Message("[EarlySpacerColonists] Set the default techlevel to Industrial");
+                Logger.Message("Set the default techlevel to Industrial");
             }
         }
     }

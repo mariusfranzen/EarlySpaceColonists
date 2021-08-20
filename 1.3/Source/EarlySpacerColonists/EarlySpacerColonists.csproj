@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EarlySpacerColonists.cs" />
-    <Compile Include="OnDefsLoaded.cs" />
+    <Compile Include="MapGeneration\GenStep_GenerateStarterShip.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
