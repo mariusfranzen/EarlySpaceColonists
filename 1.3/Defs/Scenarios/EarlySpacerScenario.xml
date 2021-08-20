@@ -59,7 +59,7 @@ Your people saw this planet long ago, and saw that it was very similar to your h
                     <def>GameStartDialog</def>
                     <text>The five of you awake in your cryptosleep sarcophagi as the ship's AI tells you that you have reached your destination. Some of you are heading to another planet, and some of you are landing here, on this unknown rimworld.
     
-    Your people saw this planet long ago, and saw that it was very similar to your home planet, so you are prepared to tackle whatever nature throws at you.</text>
+Your people saw this planet long ago, and saw that it was very similar to your home planet, so you are prepared to tackle whatever nature throws at you.</text>
                 </li>
                 <li Class="ScenPart_PawnFilter_Age">
                     <def>PawnFilter_Age</def>
