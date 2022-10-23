@@ -29,7 +29,7 @@ Your people saw this planet long ago, and saw that it was very similar to your h
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>MealSurvivalPack</thingDef>
-                    <count>150</count>
+                    <count>130</count>
                 </li>
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
@@ -50,13 +50,13 @@ Your people saw this planet long ago, and saw that it was very similar to your h
                 <li Class="ScenPart_ScatterThingsNearPlayerStart">
                     <def>ScatterThingsNearPlayerStart</def>
                     <thingDef>Steel</thingDef>
-                    <count>2000</count>
+                    <count>1400</count>
                     <allowRoofed>True</allowRoofed>
                 </li>
                 <li Class="ScenPart_ScatterThingsNearPlayerStart">
                     <def>ScatterThingsNearPlayerStart</def>
                     <thingDef>WoodLog</thingDef>
-                    <count>1000</count>
+                    <count>800</count>
                     <allowRoofed>True</allowRoofed>
                 </li>
                 <!-- Game start dialog -->
