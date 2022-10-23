@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="TreeSowing"]/tags</xpath>
+        <value>
+            <li>EarlySpacerStart</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="Brewing"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="ComplexFurniture"]/tags</xpath>
+        <value>
+            <li>EarlySpacerStart</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="Stonecutting"]/tags</xpath>
+        <value>
+            <li>EarlySpacerStart</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="ComplexClothing"]/tags</xpath>
+        <value>
+            <li>EarlySpacerStart</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="DrugProduction"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="Smithing"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="Electricity"]/tags</xpath>
+        <value>
+            <li>EarlySpacerStart</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="Batteries"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="NutrientPaste"]/tags</xpath>
+        <value>
+            <li>EarlySpacerStart</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="SolarPanels"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="AirConditioning"]/tags</xpath>
+        <value>
+            <li>EarlySpacerStart</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="Hydroponics"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="Machining"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="Gunsmithing"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="BlowbackOperation"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="GunTurrets"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="MicroelectronicsBasics"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>/Defs/ResearchProjectDef[defName="FlakArmor"]/researchViewY</xpath>
+        <value>
+            <tags>
+                <li>EarlySpacerStart</li>
+            </tags>
+        </value>
+    </Operation>
+
+    <!-- Expanded Prosthetics and Organ Engineering -->
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Expanded Prosthetics and Organ Engineering</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="BasicProsthetics"]/tags</xpath>
+            <value>
+                <li>EarlySpacerStart</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Expanded Prosthetics and Organ Engineering</li>
+        </mods>
+        <match Class="PatchOperationInsert">
+            <xpath>/Defs/ResearchProjectDef[defName="Prosthetics"]/researchViewY</xpath>
+            <value>
+                <tags>
+                    <li>EarlySpacerStart</li>
+                </tags>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Expanded Prosthetics and Organ Engineering</li>
+        </mods>
+        <match Class="PatchOperationInsert">
+            <xpath>/Defs/ResearchProjectDef[defName="Bionics"]/researchViewY</xpath>
+            <value>
+                <tags>
+                    <li>EarlySpacerStart</li>
+                </tags>
+            </value>
+        </match>
+    </Operation>
+
+    <!-- DubsBadHygiene -->
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Bad Hygiene</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="Plumbing"]/tags</xpath>
+            <value>
+                <li>EarlySpacerStart</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Bad Hygiene</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="LogBoilers"]/tags</xpath>
+            <value>
+                <li>EarlySpacerStart</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Bad Hygiene</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="CentralHeating"]/tags</xpath>
+            <value>
+                <li>EarlySpacerStart</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Bad Hygiene</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="ModernFixtures"]/tags</xpath>
+            <value>
+                <li>EarlySpacerStart</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Bad Hygiene</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="ElectricPumps"]/tags</xpath>
+            <value>
+                <li>EarlySpacerStart</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Bad Hygiene</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="Irrigation"]/tags</xpath>
+            <value>
+                <li>EarlySpacerStart</li>
+            </value>
+        </match>
+    </Operation>
+
+    <!-- Vanilla Furniture Expanded -->
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Furniture Expanded</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="MF_BasicFurniture"]/tags</xpath>
+            <value>
+                <li>EarlySpacerStart</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Furniture Expanded</li>
+        </mods>
+        <match Class="PatchOperationInsert">
+            <xpath>/Defs/ResearchProjectDef[defName="MF_ModernFurniture"]/researchViewY</xpath>
+            <value>
+                <tags>
+                    <li>EarlySpacerStart</li>
+                </tags>
+            </value>
+        </match>
+    </Operation>
+</Patch>
